@@ -1,3 +1,7 @@
+body{
+    background-color: beige;
+}
+
 #container{
     width: 98% ;
     background-color: red;
@@ -12,19 +16,19 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: red;
+    background-color: grey;
 }
 
 .left li a {
     display: block;
-    color: blue;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
 .left li a:hover {
-    background-color: #555;
+    background-color: black;
     color: red;
 }
 

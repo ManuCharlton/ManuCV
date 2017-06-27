@@ -10,7 +10,7 @@ include'constants/constant.php'
 include'constants/head.php'
 ?>
 
-<body background="images/backgrounds/background16.jpg">
+<body>
     <div id="container">
 
         <div class="left">
@@ -28,42 +28,24 @@ include'constants/head.php'
         <div class="right">
             <h1>Homepage</h1>
             <!--<img src="">-->
-            <img src="images/manu1.JPG" width="300px" height="300px">
-            <h3>A brief introduction</h3>
-            <p>Hi my name is Manu I loves to code and work with pc's and this is my profile.</p>
+            <img src="images/manu1.JPG" width="700px" height="600px">
+            <h2>A brief introduction</h2>
+            <p><big>Hi my name is Manu I loves to code and work with pc's and this is my profile.</big></p>
             <br>
-            <h3>Coding languages</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JQUERY</p>
-            <p>JAVA SCRIPT</p>
+            <h2>Coding languages</h2>
+            <p><big>HTML</big></p>
+            <p><big>CSS</big></p>
+            <p><big>JQUERY</big></p>
+            <p><big>JAVA SCRIPT</big></p>
             <br>
-            <h3>academic achievements</h3>
+            <h2>academic achievements</h2>
             <!--comeplete-->
-            <p>False bay IT course</p>
-            <p>Level 2</p>
-            <p>Level 3</p>
+            <p><big>False bay IT course</big></p>
+            <p><big>Level 2</big></p>
+            <p><big>Level 3</big></p>
         </div>
 
     </div>
 
 </body>
 </html>
-<script>
-$(document).ready(function(){
-
-// jQuery methods go here...
-    $("#hide").ready(function(){
-        $("").hide();
-    });
-}); 
-
-
-
-
-
-//$("#show").click(function(){
-//$("p").show();
-//});
-
-</script>

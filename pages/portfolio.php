@@ -9,7 +9,7 @@ include'../constants/constant.php'
 include'../constants/head.php'
 ?>
 
-<body background="../images/backgrounds/background5.png">
+<body>
 <div id="container">
 
     <div class="left">
@@ -29,25 +29,32 @@ include'../constants/head.php'
     <div class="right">
         <h1>Portfolio</h1>
 
-        <h3>Coding languages</h3>
+        <h2>Coding languages</h2>
         <div class="html">
-            <p>HTML</p>
+            <p><big>HTML</big></p>
             <img src="../images/image4.png" height="200px" width="200px">
         </div>
 
         <div class="css">
-            <p>CSS</p>
+            <p><big>CSS</big></p>
             <img src="../images/image3.jpg" height="200px" width="200px">
         </div>
 
         <div class="jquery">
-            <p>JQUERY</p>
+            <p><big>JQUERY</big></p>
             <img src="../images/image2.png" height="200px" width="200px">
         </div>
 
         <div class="java script">
-            <p>JAVA SCRIPT</p>
+            <p><big>JAVA SCRIPT</big></p>
             <img src="../images/image1.png" height="200px" width="200px">
+        </div>
+
+        <br>
+
+        <div class="java script">
+            <p><big>PHP</big></p>
+            <img src="../images/pho.png" height="200px" width="200px">
         </div>
 
         <br>

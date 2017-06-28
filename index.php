@@ -37,6 +37,7 @@ include'constants/head.php'
             <p><big>CSS</big></p>
             <p><big>JQUERY</big></p>
             <p><big>JAVA SCRIPT</big></p>
+            <p><big>PHP</big></p>
             <br>
             <h2>academic achievements</h2>
             <!--comeplete-->

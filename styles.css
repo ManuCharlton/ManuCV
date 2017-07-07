@@ -1,85 +1,59 @@
-* {
-    box-sizing: border-box;
-}
-
 body{
     background-color: beige;
-
 }
 
 #container{
     width: 98% ;
+
+
+
 }
 
 
 
-.col-3 ul {
+.left ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: grey;
-    box-sizing: border-box;
-
 }
 
-.col-3 li a {
+.left li a {
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
-    box-sizing: border-box;
-
 }
 
 /* Change the link color on hover */
-.col-3 li a:hover {
+.left li a:hover {
     background-color: black;
     color: red;
-
 }
 
-.col-9{
-    float: left;
+.right{
+    float: right;
     width: 70%;
-
-    padding: 15px;
+    margin-right: 2%;
 
 }
 
-.col-3{
+.left{
     float: left;
-    width: 25%;
-
-    padding: 15px;
-
-
+    width: 20%;
+    margin-left: 2%;
 
 }
 
 .html{
     float: right;
-
 }
 
 .css{
     float: left;
-
 }
 
 .jquery{
     float: right;
-
 }
-
-.php{
-    float: left;
-
-}
-
-.col-9.col-m-9.index{
-    width: 100%;
-    height: auto;
-}
-
-
